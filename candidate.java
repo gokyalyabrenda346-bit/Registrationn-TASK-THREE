@@ -19,10 +19,13 @@ public class candidate {
         this.examCentre = "CENTRE-001 (Main Campus)";
     }
     // CONSTRUCTOR  BLOCK
-     public  void Candidate(String studentName) {
-        System.out.println("[CONSTRUCTOR] Executing student constructor: " + studentName);
+    public candidate(String studentName) {
         this.studentName = studentName;
     }
     public void displayDetails() {
+        System.out.println("Candidate: " + studentName +
+                " | Status: " + registrationStatus +
+                " | Centre: " + examCentre +
+                " | Year: " + examYear);
     }
 }
