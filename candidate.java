@@ -4,4 +4,10 @@ public class candidate {
     String studentName;
     String registrationStatus;
     String examCentre;
+    // STATIC INITIALIZATION BLOCK
+    static {
+        System.out.println("[STATIC BLOCK]");
+        examYear = 2026;
+        registrationFee = 80000;
+    }
 }
