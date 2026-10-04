@@ -23,4 +23,6 @@ public class candidate {
         System.out.println("[CONSTRUCTOR] Executing student constructor: " + studentName);
         this.studentName = studentName;
     }
+    public void displayDetails() {
+    }
 }
