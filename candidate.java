@@ -18,4 +18,9 @@ public class candidate {
         this.registrationStatus = "Approved";
         this.examCentre = "CENTRE-001 (Main Campus)";
     }
+    // CONSTRUCTOR  BLOCK
+     public  void Candidate(String studentName) {
+        System.out.println("[CONSTRUCTOR] Executing student constructor: " + studentName);
+        this.studentName = studentName;
+    }
 }
