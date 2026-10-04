@@ -12,4 +12,10 @@ public class candidate {
         System.out.println("-> Exam Year set to: " + examYear);
         System.out.println("-> Registration Fee set to: UGX " + registrationFee);
     }
+    // INSTANCE INITIALIZATION BLOCK (IIB)
+    {
+        System.out.println("[INSTANCE BLOCK] ");
+        this.registrationStatus = "Approved";
+        this.examCentre = "CENTRE-001 (Main Campus)";
+    }
 }
