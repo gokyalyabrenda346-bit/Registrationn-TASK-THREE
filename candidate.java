@@ -9,5 +9,7 @@ public class candidate {
         System.out.println("[STATIC BLOCK]");
         examYear = 2026;
         registrationFee = 80000;
+        System.out.println("-> Exam Year set to: " + examYear);
+        System.out.println("-> Registration Fee set to: UGX " + registrationFee);
     }
 }
